@@ -4,7 +4,7 @@ const nextBtn = document.querySelector(".next-btn");
 const imgId = document.querySelector(".img-id");
 const galleryContainer = document.querySelector(".gallery-container");
 const navigationDots = document.querySelector(".navigation-dots");
-galleryContainer.style.gridTemplateColumns = `repeat(${slides.length}, 1fr)`;
+galleryContainer.style.gridTemplateColumns = `repeat(${slides.length}, auto)`;
 let currentSlide = 0;
 
 updateSlidersControls();
